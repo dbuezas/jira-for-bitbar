@@ -24,14 +24,5 @@ module.exports = {
   }, {
     name: 'Stories',
     query: 'assignee in(currentUser()) AND sprint in openSprints() AND project=SCA AND status in (backlog, "in development") AND issuetype=story',
-  }, {
-    name: 'Trooper bugs (this week)', compact: true,
-    query: 'labels=trooperbugs AND status in (backlog, "in development") AND created >= startOfWeek()',
-  }, {
-    name: 'All Trooper bugs', compact: true,
-    query: 'labels=trooperbugs AND status in (backlog, "in development")',
-  }, {
-    name: 'Done Trooper bugs', compact: true,
-    query: 'labels=trooperbugs AND status  not in (backlog, "in development")',
   }]
 };
