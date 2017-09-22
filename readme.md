@@ -8,6 +8,7 @@ Puts jira in you menu bar
 * Clone this repo inside your-bitbar-plugins/jira-for-bitbar
 * run `npm install`
 * Copy jira.15.m.sh one folder up (right in the bitbar-plugins folder)
+* Copy `credentials.example.sh` to `credentials.sh` and fill in your details
 
 ### Prerequisites
 * node v7.10.1 in /usr/local/bin/node
