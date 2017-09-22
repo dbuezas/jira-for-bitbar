@@ -5,7 +5,7 @@ Puts jira in you menu bar
 ## Getting Started
 
 * Install [bitbar](https://github.com/matryer/bitbar)
-* Clone this repo inside your-bitbar-plugins/jira
+* Clone this repo inside your-bitbar-plugins/jira-for-bitbar
 * run `npm install`
 * Copy jira.15.m.sh one folder up (right in the bitbar-plugins folder)
 
