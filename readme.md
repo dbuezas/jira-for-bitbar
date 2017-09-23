@@ -11,7 +11,10 @@ Puts jira in you menu bar
 * Copy `credentials.example.js` to `credentials.js` and fill in your details
 
 ### Prerequisites
-* node v7.10.1 in /usr/local/bin/node
+* node ≥v7.10.1 in `/usr/local/bin/node`
+* If you use nvm, `/usr/local/bin/node` may be an older version. To fix this open the console and type:
+ 1. `where node` to find where node resides
+ 2. `ln -sf ~/.nvm/versions/node/v*.*.*/bin/node /usr/local/bin/node` to symlink that version
 
 ## Authors
   * david.buezas@gmail.com
