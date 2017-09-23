@@ -20,6 +20,10 @@ Puts jira in you menu bar
 
 This project is licensed under the [WTFPL License](http://www.wtfpl.net/)
 
+## Testimonials
+
+"Many productivity. So time saved. Wow." - Doge
+
 ## Acknowledgments
 * Yes, thank you.
 
