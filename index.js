@@ -35,7 +35,7 @@ const generateMenu = async () => {
             refresh: true,
             terminal: false,
             bash: nodePath,
-            param1: `${__dirname}/index.js`,
+            param1: __filename,
             param2: 'transition',
             param3: `${id},${transition.id},${key},${transition.name}`,
           }));
